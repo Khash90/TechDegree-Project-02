@@ -124,8 +124,15 @@ nav {
       margin:7% 0;
    
    }
+   .bio-image{
+      width: 300px;
+      padding-left: 10px;
+   }
    .bio p{
       margin-top:0;
+   }
+   img{
+      width: 375px;
    }
    .container1{
       display: flex;
@@ -158,7 +165,7 @@ nav {
     padding:0;
  }
  .bio-image{
-    width: 400px;
+    width: 350px;
     padding-left: 20px;
  }
  .container1{
