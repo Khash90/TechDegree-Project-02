@@ -19,6 +19,7 @@ body{
    img{
    width: 400px;
    padding: 0;
+   width: 100%;
 }
 ul{
    list-style: none;
@@ -27,7 +28,7 @@ ul{
 li,a{
    text-decoration: none;
    color: orangered;
-   font-weight: 500;
+   font-weight: 400;
 }
 li,a:hover{
    color: yellow;
@@ -36,8 +37,15 @@ nav {
    letter-spacing: .05em;
    padding: 25px;
  }
+ .main-nav{
+    margin: 0 auto;
+ }
  h1, .top-nav {
    text-align: center;
+ }
+ h2{
+    text-align:center;
+    padding: 5% 0;
  }
  
  /* .top-nav, .top-nav li {
@@ -55,6 +63,10 @@ nav {
  
  .top-nav a {
    text-transform: uppercase;
+ }
+ .bio{
+    display: flex;
+    flex-direction: column;
  }
  
   /*-----------------------------------------------
@@ -145,6 +157,10 @@ nav {
     h2{
        text-align: center;
     }
+    .top{
+       display: none;
+    }
+   
  }
  @media (min-width: 1024px) {
    nav {
