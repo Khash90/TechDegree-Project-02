@@ -156,7 +156,8 @@ nav {
    padding: 0 2%;
 }
 .info-contact{
-   letter-spacing: 5px;
+   letter-spacing: 2px;
+   font-size: 15px;
 }
 .contact{
    padding-bottom: 30px;
