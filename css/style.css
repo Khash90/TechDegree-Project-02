@@ -59,6 +59,20 @@ nav {
  h3{
     color: rgb(159, 67, 234);
  }
+ .bio-image{
+    /* height: 581px; */
+    border-radius: 45px;
+ }
+ .bio-p{
+    line-height: 1.5rem;
+    text-align: center;
+    padding: 0 2em;
+    font-size: 20px;
+ }
+ .portfolio-p{
+    font-size: 15px;
+    line-height: 1.5rem;
+ }
  
  /* .top-nav, .top-nav li {
    width: 100%;
@@ -79,12 +93,15 @@ nav {
  .bio{
     display: flex;
     flex-direction: column;
+   
  }
  
   /*-----------------------------------------------
    Base Layout Styles
 -----------------------------------------------*/
-
+.h2-portfolio{
+   border-top: 2px solid rgba(69, 147, 236, 0.7);
+}
 .container1{
    border-bottom: 2px solid rgba(69, 147, 236, 0.7);
    padding-bottom: 30px;
@@ -146,6 +163,7 @@ nav {
 .bot-nav,
 .bot-color
 {
+   color: rgb(194, 223, 231);
    background-color:rgb(16, 12, 69);
    border-top-left-radius: 36px;
    border-top-right-radius: 36px;
@@ -186,18 +204,54 @@ nav {
       color: rgba(69, 147, 236, 0.7);
       transition: all .3s ease 0s;
    }
+   .hover-border{
+      position: relative;
+   }
+   .hover-border::after{
+      content: '';
+      width: 0%;
+      height: 1px;
+      background-color: rgb(242, 241, 246);
+      position: absolute;
+      bottom: 0%; left:50%;
+      border-radius: 10px;
+      transition: all 500ms ease;
+   }
+   .hover-border:hover::after{
+         left: 0%;
+         width: 100%;
+   }
    .bio{
       display: flex;
       flex-direction: row-reverse;
       margin:7% 0;
+      
+     
    
    }
    .bio-image{
+      /* height: 287px; */
+      border-radius: 45px;
+      padding-left: 10px;
+      margin: 0 auto;
+   }
+   /* .bio-image{
       width: 300px;
       padding-left: 10px;
-   }
+   } */
    .bio p{
       margin-top:0;
+     /* padding-left: 4em;
+     margin-left: 1.5em; */
+     text-align: left;
+   }
+   .h2-portfolio{
+      border-top: 2px solid   rgba(69, 147, 236, 0.7);
+      
+   }
+   .portfolio-p{
+      font-size: 15px;
+    line-height: 1.5rem;
    }
    img{
       width:353px;
@@ -205,6 +259,7 @@ nav {
    .container1{
       display: flex;
       flex-wrap: wrap;
+      
    }
    .col {
       flex-basis: calc(50% - 20px);
@@ -245,10 +300,14 @@ nav {
     width: 310px;
     padding:0;
  }
- .bio-image{
+ /* .bio-image{
     width: 350px;
     padding-left: 20px;
- }
+ } */
+ .bio-image{
+   height: 287px;
+   border-radius: 45px;
+}
  .container1{
     padding-left: 0;
  }
