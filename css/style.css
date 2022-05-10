@@ -238,6 +238,12 @@ nav {
      
    
    }
+   img{
+      transition-duration: 0.5s;
+   }
+   img:hover{
+      transform: scale(1.1);
+   }
    .bio-image{
       /* height: 287px; */
       border-radius: 45px;
