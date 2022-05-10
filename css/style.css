@@ -95,11 +95,49 @@ nav {
    letter-spacing: 1px;
    padding-top: 5px;
  }
+ .skills{
+    padding-top: 3%;
+    padding-bottom: 1%;
+ }
+  .col3{
+     width: 200px;
+  }
+  .container2{
+     display: flex;
+     flex-wrap: wrap;
+    justify-content: center;
+  }
+  .col-skills{
+   margin: 10px;
+   min-height: 124px;
+   text-align: center;
+   letter-spacing: 1px;
+   padding-top: 5px;
+  }
 .col2{
    padding: 0;
 }
+.contact{
+   text-align: center;
+   padding: 0 2%;
+}
+.info-contact{
+   letter-spacing: 5px;
+}
 .bar{
    display: none;
+}
+.main-footer,
+.bot-nav,
+.bot-color,
+h3{
+   background-color:rgb(96, 9, 9);
+}
+.bot-nav{
+   display: flex;
+   justify-content: space-between;
+   font-weight: 500;
+   padding: 10px 5%;
 }
 
 /*-----------------------------------------------
