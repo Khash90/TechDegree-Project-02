@@ -124,13 +124,16 @@ nav {
 .info-contact{
    letter-spacing: 5px;
 }
+.contact{
+   padding-bottom: 30px;
+}
 .bar{
    display: none;
 }
 .main-footer,
 .bot-nav,
-.bot-color,
-h3{
+.bot-color
+{
    background-color:rgb(96, 9, 9);
 }
 .bot-nav{
@@ -182,7 +185,7 @@ h3{
       margin-top:0;
    }
    img{
-      width: 375px;
+      width:353px;
    }
    .container1{
       display: flex;
@@ -198,6 +201,15 @@ h3{
     .top{
        display: none;
     }
+   
+   .bot-color{
+      display: flex;
+      justify-content: space-between;
+   }
+   .bar{
+      display: inline-block;
+      margin-left: 25px;
+   }
    
  }
  @media (min-width: 1024px) {
@@ -229,6 +241,9 @@ h3{
  .col {
    flex-basis: calc(33.333% - 20px);
    /* border: 1px solid yellow; */
+ }
+ .col-skills{
+   flex-basis: calc(25% - 20px);
  }
 
 }
