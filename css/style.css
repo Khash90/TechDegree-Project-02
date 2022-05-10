@@ -16,6 +16,11 @@ body{
     max-width: 1024px;
     
 }
+p{
+   font-family: 'Lora', serif;
+   letter-spacing: 1px;
+   font-weight: 400;
+}
    img{
    width: 400px;
    padding: 0;
