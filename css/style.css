@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
     font-family: 'Comfortaa', sans-serif;
-    background-color: black;
+    background-color: rgb(9, 8, 20);
     
 }
 /*-----------------------------------------------
@@ -12,7 +12,7 @@ body{
    font-size: 15px;
     padding: 0;
     margin: 0 auto;
-    color: orangered;
+    color: rgb(194, 223, 231);
     max-width: 1024px;
     
 }
@@ -32,11 +32,11 @@ ul{
 }
 li,a{
    text-decoration: none;
-   color: orangered;
+   color: rgb(194, 223, 231);
    font-weight: 400;
 }
 li,a:hover{
-   color: yellow;
+   color: rgb(48, 63, 92);
 }
 nav {
    letter-spacing: .05em;
@@ -44,6 +44,9 @@ nav {
  }
  .main-nav{
     margin: 0 auto;
+    border-bottom-left-radius: 36px;
+    border-bottom-right-radius: 36px;
+   
  }
  h1, .top-nav {
    text-align: center;
@@ -51,6 +54,10 @@ nav {
  h2{
     text-align:center;
     padding: 5% 0;
+    color: rgb(159, 67, 234);
+ }
+ h3{
+    color: rgb(159, 67, 234);
  }
  
  /* .top-nav, .top-nav li {
@@ -63,7 +70,7 @@ nav {
  .top-nav li {
    padding: 10px 0;
    margin: 5px auto;
-   background-color: rgb(96, 9, 9);
+   background-color: rgb(16, 12, 69);
  }
  
  .top-nav a {
@@ -79,7 +86,7 @@ nav {
 -----------------------------------------------*/
 
 .container1{
-   border-bottom: 2px solid yellow;
+   border-bottom: 2px solid rgba(69, 147, 236, 0.7);
    padding-bottom: 30px;
    margin: 0 auto;
    text-align: center;
@@ -88,7 +95,7 @@ nav {
     
 }
 .container2{
-   border-bottom: 2px solid yellow;
+   border-bottom: 2px solid rgba(69, 147, 236, 0.7);
    padding-bottom: 30px;
    margin: 0 auto;
    text-align: center;
@@ -139,7 +146,9 @@ nav {
 .bot-nav,
 .bot-color
 {
-   background-color:rgb(96, 9, 9);
+   background-color:rgb(16, 12, 69);
+   border-top-left-radius: 36px;
+   border-top-right-radius: 36px;
 }
 .bot-nav{
    display: flex;
@@ -148,13 +157,14 @@ nav {
    padding: 10px 5%;
 }
 
+
 /*-----------------------------------------------
    Media Queries
 -----------------------------------------------*/
 @media (min-width: 768px) {
    .top-nav {
      margin-top: 0;
-     background-color: rgb(96, 9, 9);
+     background-color: rgb(16, 12, 69);
    }
    
  
@@ -166,14 +176,14 @@ nav {
    h1,
    .main-nav,
    .top-nav ul {
-     background-color: rgb(96, 9, 9);
+     background-color: rgb(16, 12, 69);
    }
  
    .top-nav li:last-child {
      margin-right: 0;
    }
    li a:hover{
-      color: yellow;
+      color: rgba(69, 147, 236, 0.7);
       transition: all .3s ease 0s;
    }
    .bio{
