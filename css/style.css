@@ -245,10 +245,10 @@ nav {
       transform: scale(1.1);
    }
    .bio-image{
-      /* height: 287px; */
+      height: 287px;
       border-radius: 45px;
       padding-left: 10px;
-      margin: 0 auto;
+      margin: 0 25px;
    }
    /* .bio-image{
       width: 300px;
@@ -320,8 +320,9 @@ nav {
     padding-left: 20px;
  } */
  .bio-image{
-   height: 287px;
+   height: 350px;
    border-radius: 45px;
+   margin-right: 23px;
 }
  .container1{
     padding-left: 0;
